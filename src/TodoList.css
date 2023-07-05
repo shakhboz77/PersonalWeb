@@ -1,0 +1,75 @@
+.App1 {
+    background-image: url('../../image/portfolio/todo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    font-size: large;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+  .search-input1 {
+    width: 80%;
+    padding: 10px;
+    font-size:large;
+    font-weight: bold;
+  }
+  .button1 {
+    width:20%;
+    padding: 12px;
+    background-color: teal;
+    color: aliceblue;
+    font-size: large;
+    border: 0;
+  }
+  .parent1 {
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    cursor: pointer;
+    width: 300px;
+  }
+  .item1 {
+    display: flex;
+    width: 77%;
+    gap: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    border: 0.3px solid gray;
+  }
+  .items1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .item-btn {
+    padding: 20px;
+    background-color: teal;
+    color: aliceblue;
+    width: 20%;
+  }
+  .pointer {
+    cursor: pointer;
+    color: rgb(38, 125, 128);
+  }
+  .pointer:hover{
+    color: rgb(233, 63, 20);
+  }
